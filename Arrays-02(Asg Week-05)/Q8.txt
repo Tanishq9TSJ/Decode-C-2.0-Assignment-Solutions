@@ -1,0 +1,6 @@
+avg = getAverage( balance[0], 5 ) ;
+
+Here, we are calling the function incorrectly.
+We initialised the function as 
+double getAverage(int arr[], int size);
+but here in the first parameter of function, we are calling first element of array balance, instead of an array, so it will give an error.
